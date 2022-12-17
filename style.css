@@ -1,0 +1,39 @@
+*{
+    font-family: "Space Mono", Helvetica, sans-serif;
+}
+body {
+    background-color: #CCA4A4;
+}
+
+/*body {
+    background-image: url('./img/mission_failed_kong.jpg');
+    background-repeat: repeat;
+    background-color: white;
+    background-size: 350px auto;
+}
+*/
+.recipes {
+    /* aligns the heading text */
+    text-align: center;
+    color: #3E3B36;
+}
+.catcenter {
+    /*adjust image in the center */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+.recipelist, :visited {
+    /*sets the recipes list visited/non-visted links the same color*/
+    color: #3E3B36;
+    text-align: center;
+}
+ul {
+    /* remove bullet points from the unordered list */
+    list-style-type: none;
+}
+.nounderline {
+    text-decoration: none;
+}
+
